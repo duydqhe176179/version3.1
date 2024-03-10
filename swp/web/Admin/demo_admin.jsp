@@ -188,6 +188,7 @@
                 <div class="my-auto">
                     <h1 class="mb-0">
                         <span class="text-primary">News</span>
+                        <a href="addnews"><i class="fa-solid fa-plus"></i></a>
                     </h1>
                     <div class="table-responsive">
                         <c:set var="page4" value="${requestScope.page4}"/>
@@ -393,7 +394,7 @@
 
             <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
                 <div class="my-auto">
-                    <h2 class="mb-5">Skills</h2>
+                    <h2 class="mb-5">Skills <a href="addSkill"><i class="fa-solid fa-plus"></i></a></h2>
                     <c:set var="page" value="${requestScope.page}"/>
                     <div class="pagination">
                         <c:forEach begin="1" end="${requestScope.num3}" var="i">
